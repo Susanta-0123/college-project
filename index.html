@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f2ec">
+  <meta name="description" content="Find your direction at Alderwood College. Explore hands-on learning, close-knit campus life, and more than 60 areas of study.">
+  <title>Alderwood College — Make room for what’s next</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement">
+    <p><span class="announcement-mark" aria-hidden="true">✳</span> Applications for Fall 2027 are open</p>
+    <a href="#admissions">Find your next step <span aria-hidden="true">↗</span></a>
+  </div>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Alderwood College home">
+      <span class="wordmark-seal" aria-hidden="true">A</span>
+      <span class="wordmark-text">ALDERWOOD <small>COLLEGE</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation">
+      <span></span><span></span>
+    </button>
+    <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+      <a href="#academics">Academics</a>
+      <a href="#campus">Campus life</a>
+      <a href="#about">About</a>
+      <a href="#visit">Visit</a>
+      <a class="nav-apply" href="#admissions">Apply <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=2200&q=88" alt="Students walking across a leafy college campus" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow"><span></span> A college for the curious</p>
+        <h1 id="hero-title">Make room<br>for <em>what’s next.</em></h1>
+        <p class="hero-copy">A bigger world starts with a closer community. Find your people, follow your questions, and make a future that feels like yours.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#academics">Explore academics <span aria-hidden="true">↗</span></a>
+          <a class="text-link hero-tour" href="#visit">Come see for yourself <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="hero-caption"><span>41° 18' N &nbsp; 72° 55' W</span><span>New Haven, Connecticut</span></div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to discover more"><span></span></a>
+    </section>
+
+    <section class="intro section-wrap" id="about">
+      <div class="intro-label"><span class="section-number">01</span><span>Small college.<br>Wide-open future.</span></div>
+      <div class="intro-main">
+        <h2>A place to get<br><em>beautifully lost.</em></h2>
+        <div class="intro-bottom">
+          <p>Try something you’ve never tried. Ask the question nobody else thought to ask. At Alderwood, the best part of your story might be the part you haven’t imagined yet.</p>
+          <a class="circle-link" href="#campus" aria-label="Explore the Alderwood experience"><span aria-hidden="true">↘</span></a>
+        </div>
+      </div>
+      <div class="intro-stat"><strong>9:1</strong><span>student-to-faculty ratio</span><i aria-hidden="true"></i></div>
+    </section>
+
+    <section class="academics" id="academics">
+      <div class="section-wrap academics-inner">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow-dot"></span> Find your direction</p><h2>Curiosity looks<br><em>good on you.</em></h2></div>
+          <p class="heading-note">A first major isn’t a final answer. Start with what pulls you in, and let the rest unfold.</p>
+        </div>
+        <div class="program-toolbar">
+          <p class="program-count"><span id="program-total">06</span> areas to explore</p>
+          <div class="program-filters" role="group" aria-label="Filter programs by area">
+            <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter-button" type="button" data-filter="arts" aria-pressed="false">Arts &amp; humanities</button>
+            <button class="filter-button" type="button" data-filter="science" aria-pressed="false">Science &amp; tech</button>
+            <button class="filter-button" type="button" data-filter="society" aria-pressed="false">People &amp; society</button>
+          </div>
+        </div>
+        <div class="program-grid" id="program-grid">
+          <a class="program-card" href="#admissions" data-category="science"><span class="program-index">01 / SCIENCE</span><h3>Environmental<br>Studies</h3><span class="program-arrow" aria-hidden="true">↗</span></a>
+          <a class="program-card" href="#admissions" data-category="arts"><span class="program-index">02 / ARTS</span><h3>Creative<br>Writing</h3><span class="program-arrow" aria-hidden="true">↗</span></a>
+          <a class="program-card" href="#admissions" data-category="society"><span class="program-index">03 / SOCIETY</span><h3>Psychology &amp;<br>Human Behavior</h3><span class="program-arrow" aria-hidden="true">↗</span></a>
+          <a class="program-card" href="#admissions" data-category="science"><span class="program-index">04 / TECHNOLOGY</span><h3>Computer<br>Science</h3><span class="program-arrow" aria-hidden="true">↗</span></a>
+          <a class="program-card" href="#admissions" data-category="arts"><span class="program-index">05 / HUMANITIES</span><h3>History &amp;<br>Global Cultures</h3><span class="program-arrow" aria-hidden="true">↗</span></a>
+          <a class="program-card" href="#admissions" data-category="society"><span class="program-index">06 / SOCIETY</span><h3>Public Health<br>&amp; Community</h3><span class="program-arrow" aria-hidden="true">↗</span></a>
+        </div>
+        <a class="all-programs" href="#admissions">See all 60+ areas of study <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="campus" id="campus">
+      <div class="campus-image-wrap">
+        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1500&q=85" alt="College students sharing a moment together outdoors" loading="lazy">
+        <span class="image-note">This is where it starts.</span>
+      </div>
+      <div class="campus-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> More than a place to study</p>
+        <h2>Find your<br><em>kind of people.</em></h2>
+        <p>Late-night studio sessions. A club for the thing you thought only you liked. Friends who show up when it matters. The Alderwood experience is something you make together.</p>
+        <a class="button button-dark" href="#visit">A day at Alderwood <span aria-hidden="true">↗</span></a>
+        <div class="campus-detail"><strong>120+</strong><span>student-led clubs<br>and organizations</span><span class="detail-rule"></span></div>
+      </div>
+    </section>
+
+    <section class="admissions" id="admissions">
+      <div class="admissions-inner">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Your next chapter</p>
+        <h2>There’s a place<br>for <em>you here.</em></h2>
+        <p>Bring your questions, your big plans, and the ideas you’re still figuring out. We’ll meet you where you are.</p>
+        <div class="admissions-actions"><a class="button button-light" href="mailto:admissions@alderwood.example">Start your application <span aria-hidden="true">↗</span></a><a class="admissions-link" href="mailto:admissions@alderwood.example">Talk to admissions <span aria-hidden="true">→</span></a></div>
+        <span class="admissions-mark" aria-hidden="true">A</span>
+      </div>
+      <div class="admissions-side"><span>FALL 2027</span><span>APPLICATIONS OPEN</span><span class="side-line"></span><span>We can’t wait<br>to meet you.</span></div>
+    </section>
+
+    <section class="visit section-wrap" id="visit">
+      <div><p class="eyebrow"><span class="eyebrow-dot"></span> Right around the corner</p><h2>Come see what<br><em>feels like you.</em></h2></div>
+      <div class="visit-info"><p>Take the long way through campus. Sit in on a class. Get a feel for the place that could feel like yours.</p><a class="button button-dark" href="mailto:visit@alderwood.example">Plan a visit <span aria-hidden="true">↗</span></a></div>
+      <span class="visit-coordinate">NEW HAVEN, CT<br>41° 18' N &nbsp; 72° 55' W</span>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="wordmark footer-wordmark" href="#top" aria-label="Alderwood College home"><span class="wordmark-seal" aria-hidden="true">A</span><span class="wordmark-text">ALDERWOOD <small>COLLEGE</small></span></a>
+    <p>Learn widely. Live fully. Go somewhere.</p>
+    <div class="footer-meta"><span>New Haven, Connecticut</span><span>© 2026 Alderwood College</span></div>
+  </footer>
+</body>
+</html>
